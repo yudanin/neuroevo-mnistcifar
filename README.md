@@ -1,3 +1,5 @@
 Evolving Neural Networks: Building a more efficient method
 
 Neuroevolution presents an alternative to traditional approaches for constructing efficient neural networks. Instead of manually selecting hyperparameters or conducting exhaustive grid searches, neuroevolution draws inspiration from biology, allowing the most effective models to "survive" and "reproduce," passing their traits, with some modification, to subsequent generations. Building on prior work and utilizing the Genetic Algorithm approach, this code demonstrates a method for evolving neural networks by selecting the most fit models, combining network parameters through crossover, introducing mutations, and iterating this process over multiple generations. Each network undergoes limited backpropagation-based training before fitness evaluation and reproduction. This approach was tested on the MNIST and CIFAR-10 datasets, comparing the evolved networks' performance against well-established architectures. Results show that the evolved networks perform comparably to or even surpass traditional architectures.
+
+The code is a Google Colab Notebook.
